@@ -1,6 +1,10 @@
 # character_design_page
 
 statelessWidget 테스트
+캐릭터 화면 예제
+
+## 실행 화면
+![image](https://user-images.githubusercontent.com/77111523/139222222-8507a818-8815-47c2-ba04-4b36e5a3d61f.png)
 
 ## Getting Started
 

@@ -6,15 +6,10 @@ statelessWidget 테스트
 ## 실행 화면
 ![image](https://user-images.githubusercontent.com/77111523/139222222-8507a818-8815-47c2-ba04-4b36e5a3d61f.png)
 
-## Getting Started
+## 설명
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 가로축의 정중앙에 위치시키려면 `body: Center()`안에 넣어주기. 세로축의 정중앙에 위치시키려면 `mainAxisAlignment: MainAxisAlignment.center,`을 사용
+- 가로축 정렬 하려면 `crossAxisAlignment: CrossAxisAlignment.start,` 사용
+- `Row()` 활용 (말 그대로 가로로 인스턴스 배열하고 싶을 때 사용)
+- `SizedBox()` 활용 (인스턴스 중간 중간에 공간)
+- 아바타 배경이 투명이거나 할 경우, 그 이미지의 배경의 색 설정
